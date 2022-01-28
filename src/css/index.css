@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: -0.05rem;
+  background-color: #23252c;
+}
+
+/*App styling*/
+.App {
+  border-radius: 10px 10px 10px 10px;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f5f5f5;
+  max-width: 350px;
+}
+
+/*header styling*/
+header > img {
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: auto;
+}
+
+.header--name,
+.header--occupation,
+.header--link {
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.header--occupation {
+  color: #f47d27;
+  font-size: 14px;
+}
+
+.header-a-link,
+.header-a-link:visited,
+.header-a-link:active {
+  text-decoration: none;
+  color: black;
+}
+
+.header-a-link:hover {
+  color: #f47d27;
+}
+
+.header--link {
+  font-size: 11px;
+  display: inline;
+}
+
+/*button styling*/
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-button,
+.linkedin-button {
+  align-items: center;
+  background: #ffffff;
+  margin: 12px 0px 0px 0px;
+  width: 115px;
+  height: 34px;
+  left: 151px;
+  top: 469px;
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.linkedin-button {
+  background: #297fe5;
+  color: white;
+}
+
+.email-icon,
+.linkedin-icon {
+  position: relative;
+  top: 1.5px;
+  right: 3px;
+}
+
+.button-space {
+  width: 10px;
+}
+
+.header-button:hover {
+  cursor: pointer;
+}
+
+/*main content styling*/
+main {
+  text-align: left;
+  padding-left: 55px;
+}
+
+main > h1 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+main > p {
+  margin-top: 5px;
+  margin-bottom: 0;
+  max-width: 250px;
+  font-size: 13px;
+}
+
+.interest-text {
+  margin-bottom: 25px;
+}
+
+/*footer styling*/
+footer {
+  border-radius: 0px 0px 10px 10px;
+  margin-top: 10px;
+  background-color: #d5d4d8;
+  border-top: 1px solid #d5d4d8;
+  height: 30px;
+  font-weight: 300;
+}
+
+.footer--list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer--list > li {
+  font-size: 18px;
+  list-style: none;
+  padding-top: 6px;
+  padding-right: 12px;
+  color: #918e9b;
+}
+
+.social-icon {
+  color: #918e9b;
+}
+
+.social-icon:hover {
+  color: #f47d27;
+}
